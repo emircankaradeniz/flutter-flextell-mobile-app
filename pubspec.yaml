@@ -1,0 +1,28 @@
+name: flextell_case_study
+description: Flextell OAuth2 mobile app case study
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  flutter_appauth: ^9.0.1
+  flutter_secure_storage: ^9.2.4
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  dio: ^5.4.3+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
